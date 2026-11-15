@@ -7,6 +7,7 @@ Site: https://schardosimm.github.io/
 ## Conteúdo
 - Apresentação e experiência.
 - MS Estruturas, com imagem da interface, código e downloads.
+- Áreas de interesse para novos projetos: hidráulica, economia aplicada à engenharia e engenharia de transportes/tráfego.
 - Contatos profissionais.
 
 ## Atualizar
