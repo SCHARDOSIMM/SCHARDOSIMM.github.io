@@ -84,3 +84,34 @@
   .ms-example-grid { grid-template-columns: 1fr; }
   .ms-examples { margin-top: 28px; }
 }
+
+.ms-video {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(235px, 320px);
+  align-items: center;
+  gap: clamp(22px, 5vw, 64px);
+  margin-top: 30px;
+  padding: clamp(18px, 4vw, 42px);
+  border-radius: 4px;
+  background: #142d36;
+  color: #f6f5f0;
+}
+.project-ms .ms-video p {
+  max-width: 500px;
+  margin: 12px 0 0;
+  color: #dce5e4;
+}
+.project-ms .ms-video .ms-video-runtime { font-size: 13px; }
+.ms-video video {
+  display: block;
+  justify-self: center;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  border-radius: 4px;
+  background: #0b1424;
+}
+@media (max-width: 620px) {
+  .ms-video { grid-template-columns: 1fr; }
+}
